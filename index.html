@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <title>Lista de Contatos</title>
+    </head>
+    <body>
+        <div class="container">
+            <section id="menu-inicial">
+                <h1>Agenda Telefônica</h1>
+                <h2>O que deseja fazer?</h2>
+                <div id="inicial-botoes">
+                    <button id="btn-novoCadastro" type="button">Cadastrar</button>
+                    <button id="btn-listar" type="submit">Ver Lista</button>
+                </div>
+            </section>
+            <section id="formulario">
+                <h1>Agenda Telefônica</h1>
+                <form action="">
+                    <label for="nome-contato">Nome</label>
+                    <input
+                        type="text"
+                        id="nome-contato"
+                        required
+                        placeholder="Digite o nome"
+                    >
+                    <label for="tel-contato">Telefone</label>
+                    <input
+                        type="tel"
+                        id="tel-contato"
+                        required
+                        placeholder="Digite o número telefônico"
+                    >
+                    <button type="submit" id="btn-cadastrar">Cadastrar</button>
+                </form>
+                <a href="" id="link-voltar">Voltar</a>
+            </section>
+            <section id="lista">
+                <h1>Agenda Telefônica</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Telefone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>                        
+                    </tbody>
+                </table>
+                <button type="button" id="btn-voltar">Voltar</button>
+            </section>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

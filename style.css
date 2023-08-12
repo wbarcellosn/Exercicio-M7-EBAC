@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* GERAIS */
+
+.container {
+    max-width: 960px;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#lista button, form button {
+    padding: 8px 35px;
+    margin: 0 auto 10px auto;
+    color: white;
+    background-color: #08807b;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    cursor:pointer;
+}
+
+/* MENU-INICIAL */
+
+#menu-inicial h1, #formulario h1, #lista h1 {
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: #076461;
+}
+
+#menu-inicial {
+    height: 300px;
+    width: 60%;
+    text-align: center;
+    
+}
+
+#menu-inicial h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#inicial-botoes {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#inicial-botoes button {
+    width: 45%;
+    padding: 8px 18px;
+    color: white;
+    background-color: #08807b;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    cursor:pointer;
+}
+
+#inicial-botoes button:hover, form button:hover, #lista button:hover {
+    color: white;
+    background-color:#076461;
+}
+
+
+/* FORMULARIO */
+
+#formulario {
+    width: 60%;
+    text-align: center;
+    display:none;
+    padding: 20px;
+    border: 3px solid #08807b;
+}
+
+#formulario form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+form input {
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+/* LISTA */
+
+#lista {
+    display:none;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #08807b;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+thead th {
+    font-size: 22px;
+}
+
+table td {
+    text-align: center;
+    padding: 12px;
+    background-color: #54d6d27e;
+    width: 47.5%;
+    font-size: 18px;
+}
+
+
+
+
+
+
